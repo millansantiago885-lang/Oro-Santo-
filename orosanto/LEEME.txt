@@ -1,0 +1,32 @@
+╔══════════════════════════════════════════════════╗
+║        ORO SANTO — Sistema de Catálogo           ║
+╠══════════════════════════════════════════════════╣
+
+REQUISITO: Node.js instalado (https://nodejs.org)
+
+CÓMO INICIAR:
+  1. Descomprime esta carpeta
+  2. Abre Terminal / CMD en la carpeta
+  3. Ejecuta:  node server.js
+  4. Abre:     http://localhost:3000
+
+PÁGINAS:
+  • Web pública:  http://localhost:3000
+  • Admin:        http://localhost:3000/admin
+  • Contraseña:   admin123
+
+CAMBIAR CONTRASEÑA:
+  Abre server.js y busca:
+    const ADMIN_PASS = 'admin123';
+  Cámbiala por la tuya.
+
+BASE DE DATOS:
+  Los productos se guardan en: data/db.json
+  Haz backup de ese archivo para no perder nada.
+
+PARA PONER EN INTERNET:
+  Sube la carpeta completa a:
+  - Railway.app (gratis, fácil)
+  - Render.com
+  - VPS con Node.js
+

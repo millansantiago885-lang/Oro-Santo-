@@ -1,0 +1,33 @@
+{
+  "config": {
+    "name": "ORO SANTO",
+    "wa": "573001234567",
+    "msg": "Hola, me interesa {producto}, ¿está disponible?",
+    "banner": "Envíos Colombia · Garantía de calidad · Joyas únicas · Atención personalizada · Pago contra entrega"
+  },
+  "categories": ["Anillos", "Collares", "Aretes", "Pulseras", "Dijes"],
+  "products": [
+    {
+      "id": "demo1",
+      "name": "Anillo Solitario Oro 18K",
+      "cat": "Anillos",
+      "ref": "ANI-001",
+      "price": 450000,
+      "oldPrice": 580000,
+      "desc": "Hermoso anillo solitario en oro de 18 kilates con piedra central de circón AAA. Disponible en tallas 5 a 10.",
+      "badge": "Nuevo",
+      "img": null
+    },
+    {
+      "id": "demo2",
+      "name": "Collar Cadena Fígaro",
+      "cat": "Collares",
+      "ref": "COL-012",
+      "price": 320000,
+      "oldPrice": null,
+      "desc": "Cadena tipo fígaro en oro laminado de alta duración. Largo 45cm.",
+      "badge": null,
+      "img": null
+    }
+  ]
+}
